@@ -3,8 +3,8 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      get "/cards", to: "cards#index", as: "cards"
-      resources :games
+      resources :cards, only: [:index, :show]
+      resources :games, only: [:create]
     end
   end
 
