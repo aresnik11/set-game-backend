@@ -1,7 +1,16 @@
 class Api::V1::GamesController < ApplicationController
     def index
-        games = Game.all
-        render json: games
+        games = Game.top_10_scores
+        render json: games.to_json(include: :user)
+    end
+
+    def update
+        game = Game.find(params[:id])
+        if game.update(game_params)
+            render json: game
+        else
+            render json: {errors: game.errors.full_messages}
+        end
     end
 
     def create
@@ -16,6 +25,6 @@ class Api::V1::GamesController < ApplicationController
     private
 
     def game_params
-        params.require(:game).permit(:score, :status)
+        params.require(:game).permit(:score, :status, :user_id)
     end
 end
