@@ -7,10 +7,10 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://best-set-game.netlify.com'
+    origins 'https://best-set-game.netlify.com/'
 
-    resource '*',
-      headers: :any,
-      methods: [:get, :post, :put, :patch, :delete, :options, :head]
+    resource '/api/v1/cards', headers: :any, methods: [:get]
+    resource '/api/v1/games', headers: :any, methods: [:get, :post, :patch]
+    resource '/api/v1/users', headers: :any, methods: [:get, :post]
   end
 end
