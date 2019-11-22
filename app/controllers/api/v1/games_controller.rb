@@ -1,6 +1,8 @@
 class Api::V1::GamesController < ApplicationController
     def index
+        # only get top 10 game scores
         games = Game.top_10_scores
+        # send back user object instead of just user id
         render json: games.to_json(include: :user)
     end
 
