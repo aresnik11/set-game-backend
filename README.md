@@ -1,5 +1,7 @@
 # Set Game
 
+*Developed by [Amy Resnik](https://github.com/aresnik11) and [Dan Behrman](https://github.com/DanBehrman).*
+
 Set Game is single page app that lets user play the game SET.
 
 The backend repo is deployed via Heroku, and the frontend repo ([here](https://github.com/aresnik11/set-game-frontend)) is deployed via Netlify. Visit [https://best-set-game.netlify.com](https://best-set-game.netlify.com) to play!
@@ -48,6 +50,7 @@ To test on your own machine:
 4. In terminal run
 ```
 bundle install
+rails db:create
 rails db:migrate
 rails db:seed
 rails s
