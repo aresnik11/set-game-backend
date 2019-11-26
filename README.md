@@ -2,6 +2,10 @@
 
 Set Game is single page app that lets user play the game SET.
 
+The backend repo is deployed via Heroku, and the frontend repo ([here](https://github.com/aresnik11/set-game-frontend)) is deployed via Netlify. Visit [https://best-set-game.netlify.com](https://best-set-game.netlify.com) to play!
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c669172-c73c-444c-af63-03d51895a8c8/deploy-status)](https://app.netlify.com/sites/best-set-game/deploys)
+
 ![Set Game](https://user-images.githubusercontent.com/8761638/69589475-2f4b0200-0fba-11ea-8f41-5a131079261f.png)
 
 ## Demo
@@ -41,11 +45,14 @@ To test on your own machine:
 1. Clone this repository
 2. Switch to Ruby version `2.6.1`
 3. Make sure `postgreSQL` is running on your computer, if not, download and run it
-4. In terminal run `bundle install`
-5. In terminal run `rails db:migrate`
-6. In terminal run `rails db:seed`
-7. In terminal run `rails s` to start the Rails server
-8. Follow instructions [here](https://github.com/aresnik11/set-game-frontend) to run the frontend
-9. You will need to update `config/initializers/cors.rb` to accept origin requests from wherever your frontend will be hosted
+4. In terminal run
+```
+bundle install
+rails db:migrate
+rails db:seed
+rails s
+```
+5. Follow instructions [here](https://github.com/aresnik11/set-game-frontend) to run the frontend
+6. You will need to update `config/initializers/cors.rb` to accept origin requests from wherever your frontend will be hosted
 
 ## Enjoy!
