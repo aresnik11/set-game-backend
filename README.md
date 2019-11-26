@@ -39,11 +39,13 @@ Visit [https://best-set-game.netlify.com](https://best-set-game.netlify.com) to 
 
 To test on your own machine:
 1. Clone this repository
-2. In terminal run `bundle install`
-3. In terminal run `rails db:migrate`
-4. In terminal run `rails db:seed`
-5. In terminal run `rails s` to start the Rails server
-6. Follow instructions [here](https://github.com/aresnik11/set-game-frontend) to run the frontend
-7. You will need to update `config/initializers/cors.rb` to accept origin requests from wherever your frontend will be hosted
+2. Switch to Ruby version `2.6.1`
+3. Make sure `postgreSQL` is running on your computer, if not, download and run it
+4. In terminal run `bundle install`
+5. In terminal run `rails db:migrate`
+6. In terminal run `rails db:seed`
+7. In terminal run `rails s` to start the Rails server
+8. Follow instructions [here](https://github.com/aresnik11/set-game-frontend) to run the frontend
+9. You will need to update `config/initializers/cors.rb` to accept origin requests from wherever your frontend will be hosted
 
 ## Enjoy!
