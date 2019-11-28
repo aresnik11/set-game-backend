@@ -12,7 +12,11 @@ The backend repo is deployed via Heroku, and the frontend repo ([here](https://g
 
 ## Demo
 
-You can watch a live demo of the app [here](#) or visit [https://best-set-game.netlify.com](https://best-set-game.netlify.com) to play!
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=W0tN86PVt68
+" target="_blank"><img src="http://img.youtube.com/vi/W0tN86PVt68/0.jpg" 
+alt="Set Game Demo" width="240" height="180" /></a>
+
+You can watch a live demo of the app [here](https://youtu.be/W0tN86PVt68) or visit [https://best-set-game.netlify.com](https://best-set-game.netlify.com) to play!
 
 ## Technology Used
 
