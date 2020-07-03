@@ -4,7 +4,7 @@
 
 Set Game is single page app that lets user play the game SET.
 
-The backend repo is deployed via Heroku, and the frontend repo ([here](https://github.com/aresnik11/set-game-frontend)) is deployed via Netlify. Visit [https://best-set-game.netlify.com](https://best-set-game.netlify.com) to play!
+The backend repo is deployed via Heroku, and the frontend repo ([here](https://github.com/aresnik11/set-game-frontend)) is deployed via Netlify. Visit [https://best-set-game.netlify.app](https://best-set-game.netlify.app) to play!
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1c669172-c73c-444c-af63-03d51895a8c8/deploy-status)](https://app.netlify.com/sites/best-set-game/deploys)
 
@@ -16,7 +16,7 @@ The backend repo is deployed via Heroku, and the frontend repo ([here](https://g
 " target="_blank"><img src="http://img.youtube.com/vi/W0tN86PVt68/0.jpg" 
 alt="Set Game Demo" width="240" height="180" /></a>
 
-You can watch a live demo of the app [here](https://youtu.be/W0tN86PVt68) or visit [https://best-set-game.netlify.com](https://best-set-game.netlify.com) to play!
+You can watch a live demo of the app [here](https://youtu.be/W0tN86PVt68) or visit [https://best-set-game.netlify.app](https://best-set-game.netlify.app) to play!
 
 ## Technology Used
 
@@ -45,7 +45,7 @@ Set Game allows users to:
 
 ## How To Use
 
-Visit [https://best-set-game.netlify.com](https://best-set-game.netlify.com) to play!
+Visit [https://best-set-game.netlify.app](https://best-set-game.netlify.app) to play!
 
 To test on your own machine:
 1. Clone this repository
